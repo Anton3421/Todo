@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import Todolist from './components/Todolist';
-import HeaderComponent from './components/HeaderComponent';
+import TabApp from './components/TabApp'
 
 function App() {
   return (
     <div className="App">
-     <HeaderComponent />
+     <TabApp />
      <Todolist />
     </div>
   );
